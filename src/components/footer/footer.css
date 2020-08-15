@@ -1,0 +1,22 @@
+.footer {
+  background-color: black;
+}
+.attr li {
+  display: flex;
+  flex-direction: row;
+}
+
+.attr li a {
+  color: aliceblue;
+  transition: 0.3s ease-in-out;
+  margin: 20px;
+}
+
+.attr li a:hover {
+  color: crimson;
+  text-decoration: none;
+}
+.two {
+  display: flex;
+  justify-content: space-between;
+}

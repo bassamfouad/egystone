@@ -1,0 +1,19 @@
+.about .title {
+  margin-top: 25px;
+}
+
+.team-member {
+  margin-top: 35px;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  list-style: none;
+}
+
+h2 {
+  color: black;
+}

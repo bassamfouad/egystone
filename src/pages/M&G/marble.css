@@ -1,0 +1,19 @@
+.demo {
+    width: 160vh;
+    overflow: hidden;
+
+}
+
+.demo img {
+    padding: 2px;
+    width: 150vh;
+    overflow: hidden;
+
+}
+
+.demo img:hover {
+    width: 100%;
+
+    transform: scale(1.5);
+    overflow: hidden;
+}

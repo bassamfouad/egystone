@@ -1,0 +1,99 @@
+.feature-area {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('/img/ot.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title h2 {
+    color: aliceblue;
+}
+
+.single-feature h3,
+.single-feature p {
+    color: aliceblue;
+}
+
+.single-feature {
+    position: relative;
+    width: 325px;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    border-right: 1px solid aliceblue;
+    border-bottom: 1px solid aliceblue;
+    transition: 0.3s ease;
+}
+
+.feature-block:after {
+    content: "";
+    display: table;
+}
+
+.feature-block:after {
+    clear: both;
+}
+
+.feature-icon {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.single-feature i.fa {
+    border: 2px solid aliceblue;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: beige;
+    color: black;
+    width: 64px;
+    height: 64px;
+    transition: 0.3s ease;
+}
+
+.feature-block:hover .single-feature {
+    border-color: aliceblue;
+    transition: 0.3s ease;
+}
+
+.single-feature:hover .feature-icon .fa {
+    border: 2px solid black;
+    background: aliceblue;
+    color: black;
+}
+
+.single-feature:nth-of-type(even) {
+    border-right: none;
+}
+
+.single-feature:nth-last-child(2) {
+    border-bottom: none;
+}
+
+.feature-area {
+    border-bottom: none;
+}
+
+.feature-mockup {
+    top: 0px;
+    position: relative;
+}
+
+.logodist {
+    height: 60vh;
+    width: auto;
+    margin-right: 10px;
+    padding-right: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .single-feature {
+
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin: 10%;
+    }
+
+}

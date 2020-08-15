@@ -1,0 +1,49 @@
+.title .sub-heading p {
+    color: aliceblue;
+}
+
+#work h3 {
+    font-family: "Oswald", "sans-sarif";
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.row.no-gutters [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform 0.5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 50vh;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+#work h2,
+#work p {
+    color: black;
+}
+
+.seperate {
+    margin-top: 25px;
+}

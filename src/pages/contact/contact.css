@@ -1,0 +1,14 @@
+.som {
+    display: none;
+    width: 100%;
+}
+
+.fix {
+    border: 2px solid black;
+    height: 60vh;
+}
+
+.fit {
+    border: 2px solid black;
+
+}
