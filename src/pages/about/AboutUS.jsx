@@ -4,12 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 import "../1-page_style/page.css";
 import AboutSlider from "./AboutSlider";
+import OurTeam from "../../components/ourteam/OurTeam";
 
 class AboutUS extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      image: ["img/01.jpg", "img/002.jpg", "img/03.jpg"],
+      image: [
+        "img/about/carousel/1.jpg",
+        "img/002.jpg",
+        "img/about/carousel/3.jpg",
+      ],
     };
   }
   componentDidMount(props) {}
@@ -40,18 +45,28 @@ class AboutUS extends React.Component {
           <div className="row">
             <div className="col-sm-12 text-center">
               <div className="title">
-                <h2>Meet Our Awesome Team</h2>
+                <h2>About EgyStone</h2>
                 <div className="sub-heading">
                   <p className="text-center">
-                    Lorem ipsum dolor, sit amet consectetur <br />
-                    adipisicing elit. Ipsa, doloremque! Incidunt, fugit?
+                    Welcome to EgyٍStone, your one-stop destination for Egyptian
+                    marble & granite. Since 2009, we have been supplying
+                    Egyptian and imported top-of-the-line products with
+                    outstanding finishes. Our goal is to enable individuals and
+                    companies to get the best and finest finishing for both
+                    internal and external spaces. EgyStone has the ability to
+                    meet all requirements of bespoke uses of marble and granite
+                    and guarantees an exceptional customer service experience.
+                    We do not only specialize in manufacturing, but also
+                    installation, and pre and post installation surface
+                    treatments.
                   </p>
                 </div>
+                <img src="img/feds.jpg" alt="" />
               </div>
             </div>
           </div>
-          <AboutSlider />
         </div>
+        <OurTeam />
       </div>
     );
   }

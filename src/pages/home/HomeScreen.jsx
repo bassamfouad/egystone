@@ -8,7 +8,13 @@ import OurTeam from "../../components/ourteam/OurTeam";
 const HomeScreen = () => {
   return (
     <div>
-      <CarouselSlider images={["img/06.jpg", "img/04.jpg", "img/03.jpg"]} />
+      <CarouselSlider
+        images={[
+          "img/home/carousel/1.jpg",
+          "img/home/carousel/2.jpg",
+          "img/home/carousel/3.jpg",
+        ]}
+      />
       <br />
       <br />
       <br />

@@ -27,7 +27,13 @@ class MarblesAndGranitesPAge extends React.Component {
   render() {
     return (
       <div>
-        <CarouselSlider images={["img/06.jpg", "img/04.jpg", "img/03.jpg"]} />
+        <CarouselSlider
+          images={[
+            "img/marbel/carousel/1.jpg",
+            "img/marbel/carousel/2.jpg",
+            "img/marbel/carousel/3.png",
+          ]}
+        />
         <div className="row">
           <div className="col-sm-12 text-center">
             <div className="title">
@@ -42,7 +48,12 @@ class MarblesAndGranitesPAge extends React.Component {
           </div>
         </div>
         <OurWork
-          images={["img/06.jpg", "img/04.jpg", "img/03.jpg", "img/03.jpg"]}
+          images={[
+            "img/marbel/work/1.png",
+            "img/marbel/work/4.jpg",
+            "img/marbel/work/3.png",
+            "img/marbel/work/5.png",
+          ]}
         />
       </div>
     );

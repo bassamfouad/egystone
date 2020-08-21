@@ -14,7 +14,7 @@ function Contact() {
       </div>
       <br />
       <div className="container ">
-        <div className="row">
+        <div className="row dist">
           <div className="col-lg-5">
             <Form>
               <Form.Group controlId="exampleForm.ControlInput1">
@@ -32,6 +32,32 @@ function Contact() {
                 />
               </Form.Group>
             </Form>{" "}
+          </div>
+          <div className="col-lg-5">
+            <div className="social-pages ">
+              <ul>
+                <li>
+                  <a href="">
+                    <i className="fa fa-facebook"> Facebook</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i className="fa fa-twitter"> Twitter</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i className="fa fa-linkedin"> Linked-in</i>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <i className="fa fa-instagram"> Instagram</i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

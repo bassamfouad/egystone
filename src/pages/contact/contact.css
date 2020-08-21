@@ -1,14 +1,35 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+}
 .som {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 
 .fix {
-    border: 2px solid black;
-    height: 60vh;
+  border: 2px solid black;
+  height: 60vh;
 }
 
 .fit {
-    border: 2px solid black;
+  border: 2px solid black;
+}
 
+.social-pages ul {
+  margin-top: 15px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-pages ul li {
+  background-color: rgba(34, 104, 95, 0.788);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.social-pages ul li a {
+  color: aliceblue;
 }
